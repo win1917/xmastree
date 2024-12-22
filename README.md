@@ -6,7 +6,7 @@
         body {
             font-family: Arial, sans-serif;
             background-color: black;
-            color: black;
+            color: white;
             text-align: center;
             margin: 0;
             height: 100vh;
