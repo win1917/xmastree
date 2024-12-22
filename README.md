@@ -2,12 +2,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cây Thông Giáng Sinh</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: black;
-            color: white;
+            color: black;
             text-align: center;
             margin: 0;
             height: 100vh;
