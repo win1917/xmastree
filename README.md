@@ -19,11 +19,13 @@
 <body>
     <h1>Giáng Sinh Vui Vẻ 💕</h1>
     <pre id="tree"></pre>
+
     <script>
         function getRandomColor() {
             const colors = ['#FF0000', '#FFFF00', '#0000FF'];
             return colors[Math.floor(Math.random() * colors.length)];
         }
+
         function createXmasTree(height) {
             let tree = '';
             for (let i = 0; i < height; i++) {
@@ -43,13 +45,16 @@
             tree += trunkSpaces + '<span style="color: brown;">mWm</span>' + trunkSpaces + '\n';
             tree += trunkSpaces + '<span style="color: brown;">mWm</span>' + trunkSpaces + '\n';
             tree += trunkSpaces + '<span style="color: brown;">mWm</span>' + trunkSpaces;
+
             return tree;
         }
+
         function displayTree() {
             const treeElement = document.getElementById('tree');
             treeElement.innerHTML = createXmasTree(16);
         }
 
+        // Cập nhật cây thông mỗi 200ms
         setInterval(displayTree, 200);
     </script>
 </body>
