@@ -4,24 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cây Thông Giáng Sinh</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
         body {
             font-family: Arial, sans-serif;
-            background-color: black;
+            background-color: black; /* Màu nền là đen */
             color: white;
             text-align: center;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        h1 {
-            margin-bottom: 20px;
+            padding: 50px;
         }
         pre {
             font-size: 20px;
@@ -57,16 +45,4 @@
             tree += trunkSpaces + '<span style="color: brown;">mWm</span>' + trunkSpaces + '\n';
             tree += trunkSpaces + '<span style="color: brown;">mWm</span>' + trunkSpaces + '\n';
             tree += trunkSpaces + '<span style="color: brown;">mWm</span>' + trunkSpaces + '\n';
-            tree += trunkSpaces + '<span style="color: brown;">mWm</span>' + trunkSpaces;
-
-            return tree;
-        }
-
-        function displayTree() {
-            const treeElement = document.getElementById('tree');
-            treeElement.innerHTML = createXmasTree(16);
-        }
-        setInterval(displayTree, 200);
-    </script>
-</body>
-</html>
+            tree += trunkSpaces + '<span style="color: brown;">mWm</span
